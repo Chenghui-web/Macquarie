@@ -1,0 +1,34 @@
+.common-contain .nav-contain .product-list-contain {
+  border-bottom: none!important;
+  padding-left: 0.625rem /* 25/40 */ !important;
+  padding-right: 0.125rem /* 5/40 */ !important;
+  background: transparent!important;
+}
+.common-contain .nav-contain .product-list-contain .nav-list {
+  align-items: center;
+  display: flex;
+  margin-right: 0.5rem /* 20/40 */;
+}
+.common-contain .nav-contain .product-list-contain .nav-list a {
+  color: #979797;
+  border: 1px solid #d2d2d2;
+  height: 70%!important;
+}
+.common-contain .nav-contain .product-list-contain .nav-list-active a {
+  color: #ed4816;
+  border: 1px solid #ed4816;
+  border-bottom: 1px solid #ed4816!important;
+}
+.common-contain .nav-contain .product-detail {
+  padding: 2.25rem /* 90/40 */ 0.9rem /* 36/40 */;
+}
+.common-contain .nav-contain .product-detail .product-detail-title {
+  font-size: 0.8rem /* 32/40 */;
+  color: #565656;
+  margin-bottom: 1.25rem /* 50/40 */;
+}
+.common-contain .nav-contain .product-detail .list-contain {
+  font-size: 0.65rem /* 26/40 */;
+  color: #565656;
+  line-height: 1.125rem /* 45/40 */;
+}

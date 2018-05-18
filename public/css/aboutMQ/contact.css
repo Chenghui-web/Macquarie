@@ -1,0 +1,294 @@
+.index-contain {
+  position: relative;
+}
+.index-contain .common-bg {
+  display: block;
+  max-height: 100%;
+  width: 100%;
+}
+.index-contain .main-contain {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 5% 9%;
+  background: rgba(233, 72, 22, 0.6);
+  color: #fff;
+  padding: 3% 6%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain {
+    margin: 4% 9%;
+    padding: 5% 6%;
+  }
+}
+.index-contain .main-contain .main-left .eg-title {
+  font-size: 28px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-left .eg-title {
+    font-size: 24px;
+  }
+}
+.index-contain .main-contain .main-left .cn-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-left .cn-title {
+    font-size: 30px;
+  }
+}
+.index-contain .main-contain .main-left .border {
+  width: 40px;
+  height: 5px;
+  background: #fff;
+  margin: 35px 0;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-left .border {
+    width: 35px;
+    height: 3px;
+    margin: 20px 0;
+  }
+}
+.index-contain .main-contain .main-left .company-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-left .company-name {
+    font-size: 18px;
+  }
+}
+.index-contain .main-contain .main-left .record {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-left .record {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+}
+.index-contain .main-contain .main-left .address,
+.index-contain .main-contain .main-left .tel,
+.index-contain .main-contain .main-left .fax {
+  margin-bottom: 20px;
+  font-size: 18px;
+  padding-left: 40px;
+  background: url(../../img/address-icon.png) no-repeat left center;
+  background-size: auto 85%;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-left .address,
+  .index-contain .main-contain .main-left .tel,
+  .index-contain .main-contain .main-left .fax {
+    margin-bottom: 12px;
+    font-size: 15px;
+    padding-left: 25px;
+  }
+}
+.index-contain .main-contain .main-left .tel {
+  background: url(../../img/tel-icon.png) no-repeat left center;
+  background-size: auto 85%;
+}
+.index-contain .main-contain .main-left .fax {
+  background: url(../../img/fax-icon.png) no-repeat left center;
+  background-size: auto 85%;
+}
+.index-contain .main-contain .main-left .wx img {
+  width: 21%;
+}
+.index-contain .main-contain .main-left .wx-msg {
+  font-size: 18px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-left .wx-msg {
+    font-size: 14px;
+  }
+}
+.index-contain .main-contain .main-right {
+  width: 45%;
+  margin-top: 60px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-right {
+    margin-top: 20px;
+  }
+}
+.index-contain .main-contain .main-right .right-list {
+  display: flex;
+}
+.index-contain .main-contain .main-right .flex-between {
+  justify-content: space-between;
+}
+.index-contain .main-contain .main-right .flex-between .input-common {
+  margin-right: 0;
+  width: 45%;
+}
+.index-contain .main-contain .main-right .input-common {
+  border: 1px solid #fff;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #fff;
+  height: 35px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-right .input-common {
+    padding-left: 10px;
+    margin-bottom: 10px;
+    height: 28px;
+  }
+}
+.index-contain .main-contain .main-right .company,
+.index-contain .main-contain .main-right .address {
+  width: 100%;
+}
+.index-contain .main-contain .main-right .code-zip,
+.index-contain .main-contain .main-right .tel {
+  margin-right: 10px;
+}
+.index-contain .main-contain .main-right .user-name {
+  margin-right: 30px;
+}
+.index-contain .main-contain .main-right textarea {
+  border: 1px solid #fff;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: #fff;
+  flex: 1;
+  resize: none;
+  height: 80px;
+  padding-top: 10px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-right textarea {
+    padding-left: 10px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+}
+.index-contain .main-contain .main-right .list-gender {
+  display: flex;
+  height: 38px;
+  line-height: 38px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-right .list-gender {
+    height: 34px;
+    line-height: 34px;
+  }
+}
+.index-contain .main-contain .main-right .list-gender .check-common {
+  display: flex;
+  flex: row;
+  cursor: pointer;
+  margin-right: 15px;
+  align-items: center;
+}
+.index-contain .main-contain .main-right .list-gender .check-common .check {
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  line-height: 1;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-right .list-gender .check-common .check {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+  }
+}
+.index-contain .main-contain .main-right .list-gender .active .check {
+  background-color: #fff;
+  background-clip: content-box;
+  padding: 5px;
+}
+.index-contain .main-contain .main-right .get-code-contain {
+  margin-bottom: 20px;
+}
+.index-contain .main-contain .main-right .get-code-contain .input-contain {
+  display: flex;
+  border: 1px solid #fff;
+}
+.index-contain .main-contain .main-right .get-code-contain .input-contain .code-input {
+  width: 100px;
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  padding-left: 20px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-right .get-code-contain .input-contain .code-input {
+    padding-left: 10px;
+  }
+}
+.index-contain .main-contain .main-right .get-code-contain .input-contain .input-img-contain {
+  background: #fff;
+  width: 100px;
+}
+.index-contain .main-contain .main-right .get-code-contain .input-contain .input-img-contain img {
+  max-width: 100%;
+}
+.index-contain .main-contain .main-right .get-code-contain .get-code {
+  width: 60px;
+  height: 25px;
+  align-self: center;
+  text-align: center;
+  border: 1px solid #fff;
+  margin-left: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-right .get-code-contain {
+    margin-bottom: 15px;
+  }
+}
+.index-contain .main-contain .main-right .submit-btn {
+  background: #fff;
+  color: #eb3e00;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 40px;
+  line-height: 40px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .main-right .submit-btn {
+    height: 34px;
+    line-height: 34px;
+  }
+}
+.index-contain .main-contain .main-right input::-webkit-input-placeholder,
+.index-contain .main-contain .main-right textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+}
+.index-contain .main-contain .main-right input:-moz-placeholder,
+.index-contain .main-contain .main-right textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+.index-contain .main-contain .main-right input::-moz-placeholder,
+.index-contain .main-contain .main-right textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+.index-contain .main-contain .main-right input:-ms-input-placeholder,
+.index-contain .main-contain .main-right textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff;
+}

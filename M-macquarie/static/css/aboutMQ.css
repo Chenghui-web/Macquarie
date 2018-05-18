@@ -1,0 +1,41 @@
+#contact .list-contain {
+  color: #424242;
+  font-size: 0.625rem /* 25/40 */;
+}
+#contact .list-contain .company-name {
+  font-weight: bold;
+}
+#contact .list-contain .company-en-name {
+  margin-bottom: 1.2rem /* 48/40 */;
+}
+#contact .list-contain .introduce-list {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.5375rem /* 21.5/40 */;
+  margin-bottom: 0.625rem /* 25/40 */;
+}
+#contact .list-contain .introduce-list em {
+  display: block;
+  padding: 0.5rem /* 20/40 */;
+  height: 100%;
+  margin-right: 0.25rem /* 10/40 */;
+}
+#contact .list-contain .introduce-list .address-em {
+  background: url(../img/contact-address-icon.png) no-repeat center;
+  background-size: 0.5rem /* 20/40 */;
+}
+#contact .list-contain .introduce-list .tel-em {
+  background: url(../img/contact-tel-icon.png) no-repeat center;
+  background-size: 0.625rem /* 25/40 */;
+}
+#contact .list-contain .introduce-list .fax-em {
+  background: url(../img/contact-fax-icon.png) no-repeat center;
+  background-size: 0.625rem /* 25/40 */;
+}
+#contact .list-contain .introduce-list .wx {
+  width: 4.5rem /* 180/40 */;
+}
+#contact .list-contain .introduce-list .wx .wx-img {
+  display: block;
+  width: 100%;
+}

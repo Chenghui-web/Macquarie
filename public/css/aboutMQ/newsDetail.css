@@ -1,0 +1,133 @@
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container > div {
+  float: left;
+  height: 100vh;
+  min-height: 688px;
+}
+.container .left {
+  width: 31%;
+  position: relative;
+  background: url(../../img/detail-info.png) no-repeat 46% 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .left:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(233, 72, 22, 0.7);
+}
+.container .left > div {
+  position: absolute;
+  width: 218px;
+  z-index: 99;
+  color: #fff;
+  text-align: center;
+}
+.container .left > div .back {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  position: absolute;
+  top: -158px;
+  left: 0;
+  right: 0;
+  background: url(../../img/back.png);
+}
+.container .left > div .title .en {
+  font-size: 20.39px;
+  margin-bottom: 4px;
+}
+.container .left > div .title .zh {
+  font-size: 33.92px;
+  font-weight: bold;
+  margin: 0;
+}
+.container .left > div .title .line {
+  width: 50px;
+  height: 7px;
+  background: #fff;
+  margin: 24px auto;
+}
+.container .right {
+  width: 69%;
+  padding: 0 14% 0 5%;
+  box-sizing: border-box;
+}
+.container .right > div .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #565656;
+  margin-top: 75px;
+}
+.container .right > div .detail {
+  font-size: 18px;
+  color: #565656;
+  line-height: 1.8;
+  margin-top: 54px;
+}
+@media (max-width: 1600px) {
+  .container .right > div .detail {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+}
+.container .right > div .line-contain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 54px;
+}
+@media (max-width: 1600px) {
+  .container .right > div .line-contain {
+    margin-top: 30px;
+  }
+}
+.container .right > div .line {
+  width: 40px;
+  height: 4px;
+  background: #f2370b;
+  margin-right: 20px;
+}
+.container .right > div .time {
+  color: #777777;
+  font-size: 18px;
+}
+@media (max-width: 1600px) {
+  .container .right > div .time {
+    font-size: 15px;
+  }
+}
+.container .right > div .l-t {
+  font-size: 26px;
+  color: #565656;
+  margin-top: 90px;
+}
+@media (max-width: 1600px) {
+  .container .left > div .title .en {
+    font-size: 18px;
+  }
+  .container .left > div .title .zh {
+    font-size: 24px;
+  }
+  .container .left > div .btn {
+    font-size: 18px;
+  }
+  .container .right > div .title {
+    font-size: 24px;
+  }
+  .container .right > div .l-t {
+    font-size: 20px;
+    color: #565656;
+    margin-top: 60px;
+  }
+}

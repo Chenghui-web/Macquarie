@@ -1,0 +1,263 @@
+.index-contain{
+    position: relative;
+    .common-bg{
+        display: block;
+        max-height: 100%;
+        width: 100%;
+    }
+    .main-contain{
+        position: absolute;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        margin:5% 9%;
+
+        background: rgba(233, 72, 22, .6);
+        color:#fff;
+        padding:3% 6%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media screen and (max-width: 1600px) {
+            margin:4% 9%;
+            padding:5% 6%;
+        }
+        .main-left{
+            .eg-title{
+                font-size: 28px;
+                @media screen and (max-width: 1600px) {
+                    font-size: 24px;
+                }
+            }
+            .cn-title{
+                font-size: 35px;
+                font-weight: bold;
+                @media screen and (max-width: 1600px) {
+                    font-size: 30px;
+                }
+            }
+            .border{
+                width: 40px;
+                height: 5px;
+                background: #fff;
+                margin:35px 0;
+                @media screen and (max-width: 1600px) {
+                    width: 35px;
+                    height: 3px;
+                    margin:20px 0;
+                }
+            }
+            .company-name{
+                font-size: 20px;
+                font-weight: bold;
+                @media screen and (max-width: 1600px) {
+                    font-size: 18px;
+                }
+            }
+            .record{
+                font-size: 20px;
+                margin-bottom:20px;
+                @media screen and (max-width: 1600px) {
+                    font-size: 18px;
+                    margin-bottom:12px;
+                }
+            }
+            .address,.tel,.fax{
+                margin-bottom:20px;
+                font-size: 18px;
+                padding-left:40px;
+                background: url(../../img/address-icon.png) no-repeat left center;
+                background-size:auto 85%;
+                @media screen and (max-width: 1600px) {
+                    margin-bottom:12px;
+                    font-size: 15px;
+                    padding-left:25px;
+                } 
+            }
+            .tel{
+                background: url(../../img/tel-icon.png) no-repeat left center;
+                background-size:auto 85%;
+            }
+            .fax{
+                background: url(../../img/fax-icon.png) no-repeat left center;
+                background-size:auto 85%;
+            }
+            .wx{
+                img{
+                    width: 21%;
+                }
+            }
+            .wx-msg{
+                font-size: 18px;
+                @media screen and (max-width: 1600px) {
+                    font-size: 14px;
+                } 
+            }
+        }
+        .main-right{
+            width: 45%;
+            margin-top: 60px;
+            @media screen and (max-width: 1600px) {
+                margin-top:20px;
+            } 
+            .right-list{
+                display:flex;
+            }
+            .flex-between{
+                justify-content: space-between;
+                .input-common{
+                    margin-right: 0;
+                    width: 45%;
+                }
+            }
+            .input-common{
+                border:1px solid #fff;
+                padding-left:20px;
+                margin-bottom: 20px;
+                background-color: transparent;
+                color:#fff;
+                height: 35px;
+                @media screen and (max-width: 1600px) {
+                    padding-left:10px;
+                    margin-bottom: 10px;
+                    height: 28px;
+                }
+            }
+            .company,.address{
+                width: 100%;
+            }
+            .code-zip,.tel{
+                margin-right:10px;
+            }
+            .user-name{
+                margin-right: 30px;
+            }
+            textarea{
+                border:1px solid #fff;
+                padding-left:20px;
+                margin-bottom: 20px;
+                background-color: transparent;
+                color:#fff;
+                flex:1;
+                resize: none;
+                height: 80px;
+                padding-top:10px;
+                @media screen and (max-width: 1600px) {
+                    padding-left:10px;
+                    height: 40px;
+                    margin-bottom: 10px;
+                }
+            }
+            .list-gender{
+                display: flex;
+                height: 38px;
+                line-height: 38px;
+                @media screen and (max-width: 1600px) {
+                    height: 34px;
+                    line-height: 34px;
+                }
+                .check-common{
+                    display: flex;
+                    flex: row;
+                    cursor: pointer;
+                    margin-right:15px;
+                    // margin-top:5px;
+                    align-items: center;
+                    .check{
+                        margin-right:5px;
+                        width: 25px;
+                        height:25px;
+                        border-radius: 10px;
+                        border: 1px solid #fff;
+                        // text-indent: .15em;
+                        line-height: 1; 
+                        background-color:transparent;
+                        box-sizing: border-box;
+                        // vertical-align: middle;
+                        @media screen and (max-width: 1600px) {
+                            width: 20px;
+                            height:20px;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+                .active{
+                    .check{
+                        background-color: #fff;
+                        background-clip: content-box;
+                        padding: 5px;
+                    }
+                }
+            }
+            .get-code-contain{
+                .input-contain{
+                    display: flex;
+                    border:1px solid #fff;
+                    .code-input{
+                        width:100px;
+                        border:none;
+                        background-color: transparent;
+                        color:#fff;
+                        padding-left:20px;
+   
+                        @media screen and (max-width: 1600px) {
+                            padding-left:10px;
+                        }
+                    }
+                    .input-img-contain{
+                        background: #fff;
+                        width: 100px;
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+                }
+                .get-code{
+                    width: 60px;;
+                    height: 25px;
+                    align-self: center;
+                    text-align: center;
+                    border:1px solid #fff;
+                    margin-left:15px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+                margin-bottom:20px;
+                @media screen and (max-width: 1600px) {
+                    margin-bottom: 15px;
+                }
+            }
+            .submit-btn{
+                background: #fff;
+                color:#eb3e00;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                height: 40px;
+                line-height: 40px;
+                @media screen and (max-width: 1600px) {
+                    height: 34px;
+                    line-height: 34px;
+                }
+            }
+            input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {   
+                /* WebKit browsers */   
+               color: #fff;   
+               }   
+               input:-moz-placeholder, textarea:-moz-placeholder {   
+               /* Mozilla Firefox 4 to 18 */   
+               color: #fff;   
+               }   
+               input::-moz-placeholder, textarea::-moz-placeholder {   
+                /* Mozilla Firefox 19+ */   
+               color: #fff;   
+               }   
+               input:-ms-input-placeholder, textarea:-ms-input-placeholder {   
+                /* Internet Explorer 10+ */   
+               color: #fff;   
+               }
+        }
+    }
+}

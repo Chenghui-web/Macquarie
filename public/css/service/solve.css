@@ -1,0 +1,116 @@
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container > div {
+  float: left;
+  height: calc(100vh - 92px);
+  min-height: 688px;
+}
+@media (max-width: 1600px) {
+  .container > div {
+    height: calc(100vh - 80px);
+  }
+}
+.container .left {
+  width: 31%;
+  position: relative;
+  background: url(../../img/index-main-bg.jpg) no-repeat 46% 50%;
+}
+.container .left:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(233, 72, 22, 0.7);
+}
+.container .left > div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  top: 100px;
+  left: 50%;
+  margin-left: -109px;
+  width: 218px;
+  z-index: 99;
+  color: #fff;
+  text-align: center;
+}
+.container .left > div .back {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  background: url(../../img/back.png);
+}
+.container .left > div .title {
+  margin-top: 280px;
+}
+.container .left > div .title .en {
+  font-size: 20.39px;
+  margin-bottom: 4px;
+}
+.container .left > div .title .zh {
+  font-size: 33.92px;
+  font-weight: bold;
+  margin: 0;
+}
+.container .left > div .title .line {
+  width: 50px;
+  height: 7px;
+  background: #fff;
+  margin: 24px auto;
+}
+.container .right {
+  width: 69%;
+  padding: 0 14% 0 5%;
+  box-sizing: border-box;
+}
+.container .right > div .title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #565656;
+  margin-top: 75px;
+}
+.container .right > div .detail {
+  font-size: 18px;
+  color: #565656;
+  line-height: 1.6;
+  margin-top: 24px;
+}
+.container .right > div .line {
+  width: 40px;
+  height: 4px;
+  background: #f2370b;
+  margin-top: 36px;
+}
+.container .right > div .l-t {
+  font-size: 26px;
+  color: #565656;
+  margin-top: 100px;
+}
+@media (max-width: 1600px) {
+  .container .left > div .title {
+    margin-top: 200px;
+  }
+  .container .left > div .title .en {
+    font-size: 18px;
+  }
+  .container .left > div .title .zh {
+    font-size: 24px;
+  }
+  .container .left > div .btn {
+    font-size: 18px;
+  }
+  .container .right > div .title {
+    font-size: 24px;
+  }
+  .container .right > div .l-t {
+    font-size: 20px;
+    color: #565656;
+    margin-top: 60px;
+  }
+}

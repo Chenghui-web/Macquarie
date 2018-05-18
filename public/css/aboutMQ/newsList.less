@@ -1,0 +1,106 @@
+.msg-title-contain{
+    width: 61%;
+    margin:0 auto ;
+    padding-top:135px;
+    @media screen and (max-width: 1600px) {
+        width: 64%;
+        margin:0 auto;
+        padding-top:88px;
+    }
+    .en-title{
+        color:#e94816;
+        font-size: 28px;
+        @media screen and (max-width: 1600px) {
+            font-size: 24px;
+        }
+    }
+    .cn-title{
+        color:#565656;
+        font-size: 35px;
+        font-weight: bold;
+        @media screen and (max-width: 1600px) {
+            font-size: 24px;
+        }
+    }
+    .border-contain{
+        margin:40px 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .border{
+            width: 40px;
+            height: 6px;
+            background: #818181;
+            @media screen and (max-width: 1600px) {
+                width: 30px;
+                height: 3px;
+            }
+        }
+
+        @media screen and (max-width: 1600px) {
+            margin:25px 0 10px;
+        }
+    }
+
+}
+.main-list-contain{
+    width: 61%;
+    margin: 50px auto 0;
+    @media screen and (max-width: 1600px) {
+        width: 64%;
+        margin: 30px auto 0;
+    }
+    
+    .news-list{
+        display: flex;
+        flex: row;
+        // justify-content: space-between;
+        
+        flex-wrap:wrap;
+
+        .news-alone{
+            display: block;
+            text-decoration: none;
+            width: 33.33%;
+            margin-bottom:30px;
+            @media screen and (max-width: 1600px) {
+                margin-bottom:20px;
+            }
+            .time-contain{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .line{
+                    width: 28px;
+                    height: 4px;
+                    background: #e94816;
+                    margin-right: 10px;
+                    @media screen and (max-width: 1600px) {
+                        width: 16px;
+                        height: 2px;
+                    }
+                }
+                .time{
+                    color:#777777;
+                    font-size: 14px;
+                    @media screen and (max-width: 1600px) {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .news-descripe{
+                margin-top:10px;
+                color:#565656;
+                font-size: 20px;
+                max-width: 85%;
+                font-weight: bold;
+                overflow: hidden;
+                text-overflow:ellipsis;
+                white-space: nowrap;
+                @media screen and (max-width: 1600px) {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}

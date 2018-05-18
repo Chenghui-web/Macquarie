@@ -1,0 +1,176 @@
+body {
+    .index-contain {
+        height: ~"calc(100vh - 92px - 135px)";
+    }
+    @media screen and (max-width: 1600px) {
+        height: ~"calc(100vh - 88px -80px)";
+    }
+}
+.msg-title-contain {
+    width: 61%;
+    margin: 130px auto 0;
+    @media screen and (max-width: 1600px) {
+        width: 64%;
+        margin: 60px auto 0;
+    }
+    .en-title {
+        color: #e94816;
+        font-size: 28px;
+        @media screen and (max-width: 1600px) {
+            font-size: 24px;
+        }
+    }
+    .cn-title {
+        color: #565656;
+        font-size: 35px;
+        font-weight: bold;
+        @media screen and (max-width: 1600px) {
+            font-size: 24px;
+        }
+    }
+    .border-contain {
+        margin: 40px 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .border {
+            width: 40px;
+            height: 6px;
+            background: #818181;
+            @media screen and (max-width: 1600px) {
+                width: 30px;
+                height: 3px;
+            }
+        }
+        .go-more {
+            border: 1px solid #818181;
+
+            a {
+                text-decoration: none;
+                color: #565656;
+                font-size: 17px;
+                padding: 12px 18px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                em {
+                    background: url(../../img/goto-icon.png) no-repeat center;
+                    background-size: contain;
+                    display: block;
+                    height: 16px;
+                    width: 16px;
+                    margin-left: 5px;
+                }
+                @media screen and (max-width: 1600px) {
+                    padding: 5px 8px;
+                    font-size: 13px;
+                }
+            }
+        }
+        @media screen and (max-width: 1600px) {
+            margin: 25px 0 10px;
+        }
+    }
+}
+
+.news-contain {
+    position: relative;
+    .prev,
+    .next {
+        width: 18%;
+        /* margin-top: 200px; */
+        position: absolute;
+        height: 450px;
+    }
+    .prev {
+        background: url(./../../img/pre-icon.png) no-repeat center;
+    }
+    .next {
+        right: 0;
+        top: 0;
+        background: url(./../../img/next-icon.png) no-repeat center;
+    }
+}
+
+#news {
+    margin-top: 150px;
+    margin: 0 auto 220px;
+    width: 61% !important;
+    position: relative;
+    height: auto !important;
+    margin-bottom: 0!important;
+    @media screen and (max-width: 1600px) {
+        width: 64% !important;
+        margin: 0px auto 150px;
+    }
+    .prev {
+        position: absolute;
+        left: 10px;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        li {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .new-list {
+                width: 23%;
+                img {
+                    display: block;
+                    width: 100%;
+                }
+                > div {
+                    padding-top: 38px;
+                    padding-bottom: 30px;
+                    background: #e1e1e1;
+                    text-align: center;
+                    color: #565656;
+                    .en {
+                        font-size: 17.58px;
+                        @media screen and (max-width: 1600px) {
+                            font-size: 16px;
+                        }
+                        line-height: 26px;
+                    }
+                    .zh {
+                        font-size: 18.93px;
+                        @media screen and (max-width: 1600px) {
+                            font-size: 17px;
+                        }
+                        line-height: 26px;
+                    }
+                    .more {
+                        display: block;
+                        text-decoration: none;
+                        margin: 30px auto;
+                        margin-bottom: 0;
+                        width: 42%;
+                        height: 26px;
+                        border-radius: 15px;
+                        border: 1px solid #e94816;
+                        line-height: 28px;
+                        color: #e94816;
+                        font-size: 14px;
+                        @media screen and (max-width: 1600px) {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                &.no {
+                    background: #e1e1e1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .line {
+                        width: 40px;
+                        height: 2px;
+                        background: #e94816;
+                        margin: 4px auto;
+                    }
+                }
+            }
+        }
+    }
+}

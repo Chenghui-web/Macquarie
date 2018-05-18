@@ -1,0 +1,76 @@
+.index-contain {
+  position: relative;
+}
+.index-contain .swiper-container {
+  height: 100%;
+}
+.index-contain .swiper-container .swiper-pagination {
+  margin-bottom: 50px;
+}
+.index-contain .swiper-container .swiper-pagination .swiper-pagination-bullet {
+  background: #fff;
+}
+.index-contain .common-bg {
+  display: block;
+  max-height: 100%;
+  width: 100%;
+}
+.index-contain .main-contain {
+  position: absolute;
+  width: 52%;
+  height: 52%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(233, 72, 22, 0.6);
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain {
+    width: 62%;
+    height: 62%;
+  }
+}
+.index-contain .main-contain .English-title {
+  color: #f0f0f0;
+  font-size: 32px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .English-title {
+    font-size: 28px;
+  }
+}
+.index-contain .main-contain .chinese-title {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .chinese-title {
+    font-size: 36px;
+  }
+}
+.index-contain .main-contain .border {
+  width: 40px;
+  height: 5px;
+  background: #fff;
+  margin: 9% auto;
+}
+@media screen and (max-width: 1600px) {
+  .index-contain .main-contain .border {
+    height: 3px;
+  }
+}
+.index-contain .main-contain .go-more a {
+  padding-right: 40px;
+  text-decoration: none;
+  color: #fff;
+  background: url(../img/go-more.png) no-repeat right center;
+  background-size: auto 90%;
+}

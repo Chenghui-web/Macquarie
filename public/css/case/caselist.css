@@ -1,0 +1,103 @@
+body .index-contain {
+  height: calc(100vh - 92px - 135px);
+}
+@media screen and (max-width: 1600px) {
+  body {
+    height: calc(100vh - 88px - 80px);
+  }
+}
+.index-contain {
+  box-sizing: border-box;
+  min-height: calc( 100vh - 135px - 92px);
+}
+@media screen and (max-width: 1600px) {
+  .index-contain {
+    min-height: calc( 100vh - 88px - 80px);
+  }
+}
+.index-contain:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.msg-title-contain {
+  width: 61%;
+  margin: 0 auto;
+  padding-top: 135px;
+}
+@media screen and (max-width: 1600px) {
+  .msg-title-contain {
+    width: 64%;
+    padding-top: 60px;
+  }
+}
+.msg-title-contain .en-title {
+  color: #e94816;
+  font-size: 28px;
+}
+@media screen and (max-width: 1600px) {
+  .msg-title-contain .en-title {
+    font-size: 24px;
+  }
+}
+.msg-title-contain .cn-title {
+  color: #565656;
+  font-size: 35px;
+  font-weight: bold;
+}
+@media screen and (max-width: 1600px) {
+  .msg-title-contain .cn-title {
+    font-size: 24px;
+  }
+}
+.msg-title-contain .border-contain {
+  margin: 40px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.msg-title-contain .border-contain .border {
+  width: 40px;
+  height: 6px;
+  background: #818181;
+}
+@media screen and (max-width: 1600px) {
+  .msg-title-contain .border-contain .border {
+    width: 30px;
+    height: 3px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .msg-title-contain .border-contain {
+    margin: 25px 0 10px;
+  }
+}
+.msg-title-contain .info {
+  margin-top: 35px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #565656;
+  border-bottom: 1px solid #909190;
+  min-height: 130px;
+}
+@media screen and (max-width: 1600px) {
+  .msg-title-contain .info {
+    font-size: 16px;
+  }
+}
+.msg-title-contain .log-container {
+  margin-top: 30px;
+}
+.msg-title-contain .log-container .logo {
+  float: left;
+  width: 20%;
+  height: 125px;
+  line-height: 125px;
+  text-align: center;
+}
+.msg-title-contain .log-container .logo img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 60%;
+}
